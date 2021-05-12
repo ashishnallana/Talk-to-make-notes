@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just talk!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./web-icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h3>Let's make out notes with this boi!</h3>
+
+    <div>
+      <button id="start">start recording</button>
+      <button id="stop">stop recording</button>
+    </div>
+
+    <textarea
+      id="textarea"
+      cols="30"
+      rows="10"
+      placeholder="Your recorder voice will be converted to text and will be represented here!"
+    ></textarea>
+
+    <div>
+      <button id="copyText">Copy Text</button>
+      <button id="speakOut">Speak Out</button>
+      <button id="clearText">Clear Text</button>
+    </div>
+
+    <div class="bottomDiv">
+      <button id="quickGuide">Quick Guide</button>
+      <p id="quickGuideText"></p>
+      <p id="whatHappened"></p>
+    </div>
+
+    <noscript>Sorry Javascript is not activated in your browser</noscript>
+    <script src="./script.js"></script>
+  </body>
+</html>
